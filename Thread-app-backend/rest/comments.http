@@ -9,7 +9,7 @@ POST http://localhost:3000/comments HTTP/1.1
 content-type: application/json
 
 {
-  "text": "nested comment inside the second comment ",
+  "text": "new comment inside the second comment ",
   "userId":"67fa12168f52250dada8e9db",
   "parentId":"67fa42c2677586bc69ff4800"
 }

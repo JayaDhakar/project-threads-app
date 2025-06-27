@@ -7,7 +7,6 @@ import {
 import { Error } from 'mongoose';
 import ValidationError = Error;
 
-
 @Catch(ValidationError)
 export class ValidationErrorFilter implements RpcExceptionFilter {
   catch(exception: ValidationError, host: ArgumentsHost) {
